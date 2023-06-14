@@ -4,7 +4,7 @@ import '../stylesheets/Header.css'
 const Header = () => {
     return (
         <header>
-            <h1>Hola mundo :D</h1>
+            <h1>Soy el header</h1>
         </header>
     )
 }

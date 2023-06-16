@@ -1,3 +1,31 @@
 nav{
-    color: red;
+    overflow: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: -15px;
+}
+
+nav ul li:last-child{
+    margin-right: 30%;
+}
+nav ul li:first-child{
+    margin-left: 5%;
+}
+
+nav img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

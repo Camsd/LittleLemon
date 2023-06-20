@@ -1,3 +1,111 @@
-h2{
-    color: green;
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 20%;
+  margin-top: 4%;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Markazi Text', serif;
+  font-weight: 100;
+}
+
+.btn-main {
+  padding: 15px;
+  border-radius: 10px;
+  border-style: none;
+  background: #FACE14;
+  color: black;
+  font-weight: 800;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 20%;
+  text-align: center;
+  background-color: #EDEFEE;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.cards-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: auto;
+  justify-content: flex-start;
+  font-family: 'Markazi Text', serif;
+}
+
+.cards-title h2 {
+  margin-left: 12px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-right: 10px; /* Ajusta este valor según tus necesidades */
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #EE9972;
+  margin-right: 20%;
+}
+
+.description {
+  margin-left: 12px;
+  text-align: left;
+  color: #333333;
+  word-wrap: break-word;
+  margin-right: 12px;
+  margin-top: 10px;
+  line-height: 1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards div:first-child {
+  margin-left: 15%;
+}
+
+.cards div:last-child {
+  margin-right: 20%;
+}
+
+.cards img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.cards button {
+  background-color: #F4CE14;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 500;
+  margin-left: 5%;
+}
+
+.cards .logo svg {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  margin-left: 20px;
 }

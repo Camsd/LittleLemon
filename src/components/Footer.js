@@ -3,7 +3,7 @@ import '../stylesheets/Footer.css';
 
 const Footer = ()=> {
     return(
-        <h3>Soy el footer probando 3
+        <h3>Soy el footer probando 4
             
         </h3>
     );

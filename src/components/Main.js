@@ -1,4 +1,5 @@
 import React from "react";
+import Routes from '../components/Routes';
 import "../stylesheets/Main.css";
 import salad from "../images/greek salad.jpg";
 import brucheta from "../images/bruchetta.svg";
@@ -7,6 +8,7 @@ import { MdDeliveryDining } from 'react-icons/md';
 
 const Main = () => {
   return (
+    <>
     <div className="main-container">
       <div className="main-title">
         <h1>This week specials!</h1>
@@ -70,6 +72,8 @@ const Main = () => {
         </div>
       </div>
     </div>
+    <Routes />
+    </>
   );
 };
 

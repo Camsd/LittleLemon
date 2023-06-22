@@ -3,6 +3,7 @@ import "../stylesheets/Testimonials.css";
 import testimonial1 from "../images/greek salad.jpg";
 import testimonial2 from "../images/bruchetta.svg";
 import testimonial3 from "../images/lemon dessert.jpg";
+import { AiTwotoneStar } from "react-icons/ai";
 
 const Testimonials = () => {
   return (
@@ -13,24 +14,47 @@ const Testimonials = () => {
       <div className="grid-testimonials">
         <div className="cardT">
           <p className="rating">Rating</p>
+          <div className="stars">
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+          </div>
           <img src={testimonial1} alt="testimonial 1" />
           <p className="name">Mia</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="cardT">
           <p className="rating">Rating</p>
+          <div className="stars">
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+          </div>
           <img src={testimonial2} alt="testimonial 1" />
           <p className="name">Khalifa</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="cardT">
           <p className="rating">Rating</p>
+          <div className="stars">
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+          </div>
           <img src={testimonial3} alt="testimonial 1" />
           <p className="name">Messi</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="cardT">
           <p className="rating">Rating</p>
+          <div className="stars">
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+            <AiTwotoneStar className="star" />
+          </div>
           <img src={testimonial2} alt="testimonial 1" />
           <p className="name">Ronaldo</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>

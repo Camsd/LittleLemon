@@ -26,8 +26,7 @@ const Main = () => {
             crispy lettuce, peppers, olives
             and our Chicago style feta
             cheese, garnished with
-            crunchy garlic and rosemary
-            croutons.
+            crunchy garlic.
           </p>
           <div className="logo">
           <p>Order a delivery</p>

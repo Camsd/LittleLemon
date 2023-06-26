@@ -21,7 +21,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: #495e53;
+    background-color: #EDEFEE;
     height: 150px;
     width: 200px;
     padding: 5px;
@@ -36,7 +36,7 @@
     font-family: 'Markazi Text', serif;
     font-weight: 200;
     font-size: 25px;
-    color: #f4cf14bd;
+    color: black;
   }
   
   .cardT img {
@@ -50,14 +50,14 @@
     top: 70px;
     left: 80px;
     font-family: -apple-system;
-    color: #EDEFEE;
+    color: black;
   }
 
   .cardT .review {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-    color: #EDEFEE;
+    color: black;
   }
 
   .stars{

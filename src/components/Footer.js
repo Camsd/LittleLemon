@@ -3,9 +3,11 @@ import '../stylesheets/Footer.css';
 
 const Footer = ()=> {
     return(
-        <h3>Soy el footer probando 4
-            
-        </h3>
+        <>
+       <div className="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis alias ex dolorum tenetur reiciendis corporis dolores iusto sint asperiores hic aspernatur vel facere doloribus rem nesciunt, voluptas eaque. Ut maxime voluptatibus facere aliquam, sit exercitationem incidunt! Nobis facilis eos quasi labore ratione vel debitis. Qui voluptatibus dolor in odit.</p>
+       </div>
+        </>
     );
 }
 

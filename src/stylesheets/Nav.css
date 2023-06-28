@@ -23,7 +23,7 @@ nav a:hover::after {
     height: 2px;
     background-color: #f4cf14bd;
     transform: scaleX(0);
-    transition: transform 0.1s ease; /* Ajusta el valor de duración (0.3s) para una transición más suave */
+    transition: transform 0.1s ease;
   }
 
   nav a {

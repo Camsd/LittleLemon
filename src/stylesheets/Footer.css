@@ -1,5 +1,22 @@
-.footer{
-    color: rgb(0, 0, 0);
+.footer-list{
+    display: flex;
+    color: #EDEFFE;
     width: 100vw;
     margin-top: 2%;
+    margin-bottom: 0;
+    background-color: #495E57;
+    justify-content: space-evenly;
 }
+
+.footer-list ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footer-list ul li:first-child {
+    font-weight: bold;
+  }
+
+  .footer-list ul li:not(:first-child):hover {
+    text-decoration: underline;
+  }

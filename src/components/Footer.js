@@ -1,14 +1,36 @@
 import React from "react";
-import '../stylesheets/Footer.css';
+import "../stylesheets/Footer.css";
+import logoLemon from '../images/Logo.svg';
 
-const Footer = ()=> {
-    return(
-        <>
-       <div className="footer">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis alias ex dolorum tenetur reiciendis corporis dolores iusto sint asperiores hic aspernatur vel facere doloribus rem nesciunt, voluptas eaque. Ut maxime voluptatibus facere aliquam, sit exercitationem incidunt! Nobis facilis eos quasi labore ratione vel debitis. Qui voluptatibus dolor in odit.</p>
-       </div>
-        </>
-    );
-}
+const Footer = () => {
+  return (
+    <>
+      <div className="footer-list">
+        <img src={logoLemon} alt="logo-footer" />
+        <ul>
+          <li>Doormat Navigation</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Reservations</li>
+          <li>Order Online</li>
+          <li>Login</li>
+        </ul>
+        <ul>
+          <li>Contact</li>
+          <li>Address</li>
+          <li>Phone Number</li>
+          <li>Email</li>
+        </ul>
+        <ul>
+          <li>Social Media Links</li>
+          <li>Address</li>
+          <li>Phone Number</li>
+          <li>Email</li>
+        </ul>
+      </div>
+    </>
+  );
+};
 
 export default Footer;

@@ -1,5 +1,4 @@
 import React from "react";
-import Routes from '../components/Routes';
 import "../stylesheets/Main.css";
 import salad from "../images/greek salad.jpg";
 import brucheta from "../images/bruchetta.svg";
@@ -71,7 +70,6 @@ const Main = () => {
         </div>
       </div>
     </div>
-    <Routes />
     </>
   );
 };

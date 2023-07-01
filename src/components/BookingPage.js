@@ -1,25 +1,38 @@
 import React from "react";
+import '../stylesheets/BookingPage.css';
 
 const BookingPage = () => {
-    return (
-      <header>
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1>Little Lemon</h1>
-            <h4>Chicago</h4>
-            <p>
-              We are a family owned  <br />
-              Mediterranean restaurant, <br />
-              focused on traditional <br />
-              recipes served with a modern <br />
-              twist.
-            </p>
-            <button className="btn-hero">Reserve a table</button>
-          </div>
-          
-        </div>
-      </header>
-    );
-  };
+  return (
+    <>
+      <form action="submit">
+        <label for="res-date">Choose date</label>
+        <input type="date" id="res-date" />
+        <label for="res-time">Choose time</label>
+        <select id="res-time ">
+          <option>17:00</option>
+          <option>18:00</option>
+          <option>19:00</option>
+          <option>20:00</option>
+          <option>21:00</option>
+          <option>22:00</option>
+        </select>
+        <label for="guests">Number of guests</label>
+        <input
+          type="number"
+          placeholder="1"
+          min="1"
+          max="10"
+          id="guests"
+        ></input>
+        <label for="occasion">Occasion</label>
+        <select id="occasion">
+          <option>Birthday</option>
+          <option>Anniversary</option>
+        </select>
+        <input type="submit" value="Make Your reservation"></input>
+      </form>
+    </>
+  );
+};
 
-  export default BookingPage;
+export default BookingPage;

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-list">
         <img src={logoLemon} alt="logo-footer" />
         <ul>
-          <li>Doormat Navigation</li>
+          <li>Navigation</li>
           <li>Home</li>
           <li>About</li>
           <li>Menu</li>
@@ -23,10 +23,10 @@ const Footer = () => {
           <li>Email</li>
         </ul>
         <ul>
-          <li>Social Media Links</li>
-          <li>Address</li>
-          <li>Phone Number</li>
-          <li>Email</li>
+          <li>Social Media</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
         </ul>
       </div>
     </>

@@ -15,6 +15,7 @@
 
 .footer-list ul li:first-child {
     font-weight: bold;
+    color: #FAC414;
   }
 
   .footer-list ul li:not(:first-child):hover {

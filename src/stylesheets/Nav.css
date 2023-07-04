@@ -1,20 +1,23 @@
 nav{
     overflow: auto;
     margin-bottom: 1%;
+    min-height: 64px;
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin-right: -15px;
 }
 
-nav a:hover::after {
-    transform: scaleX(1);
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
   }
 
-  nav a::after {
+  nav ul li a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -26,9 +29,21 @@ nav a:hover::after {
     transition: transform 0.1s ease;
   }
 
-  nav a {
+  nav ul li a:hover::after {
+    transform: scaleX(1);
+  }
+
+nav a {
     text-decoration: none;
-    position: relative;
+    font-weight: bold;
+  }
+
+  nav.nav-colored-links a {
+    color: black;
+  }
+
+  nav.nav-white-links a {
+    color: white;
   }
 
 nav ul li:last-child{
@@ -39,6 +54,7 @@ nav ul li:first-child{
 }
 
 nav img{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,10 +62,12 @@ nav img{
     margin-left: 15%;
     padding-top: .5%;
     cursor: pointer;
+    width: 100px;
+    height: auto;
+    top: 5px;
 }
 
 a{
     text-decoration: none;
-    color: black;
     font-weight: bold;
 }

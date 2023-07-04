@@ -1,6 +1,7 @@
 header {
     position: relative;
     overflow: visible;
+    margin-top: 5rem;
   }
 
   .hero-content {
@@ -59,5 +60,9 @@ header {
     border-style: none;
     margin-bottom: 1.5%;
     cursor: pointer;
+  }
+
+  .btn-hero:hover{
+    background: #ffdd35;
   }
 

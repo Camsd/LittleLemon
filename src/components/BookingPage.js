@@ -1,38 +1,20 @@
-import React from "react";
-import '../stylesheets/BookingPage.css';
+import Heading from "./Heading";
+import ReservationForm from "../components/BookingForm";
+import { useReducer } from "react";
+import { fetchAPI } from "../Booking-api";
+export default function BookingPage() {
+  function updateTimes(date) {
+    return fetchAPI(date);
+  }
 
-const BookingPage = () => {
+  const output = fetchAPI(new Date());
+
+  const [availableTimes, dispatch] = useReducer(updateTimes, output);
+
   return (
     <>
-      <form action="submit">
-        <label for="res-date">Choose date</label>
-        <input type="date" id="res-date" />
-        <label for="res-time">Choose time</label>
-        <select id="res-time ">
-          <option>17:00</option>
-          <option>18:00</option>
-          <option>19:00</option>
-          <option>20:00</option>
-          <option>21:00</option>
-          <option>22:00</option>
-        </select>
-        <label for="guests">Number of guests</label>
-        <input
-          type="number"
-          placeholder="1"
-          min="1"
-          max="10"
-          id="guests"
-        ></input>
-        <label for="occasion">Occasion</label>
-        <select id="occasion">
-          <option>Birthday</option>
-          <option>Anniversary</option>
-        </select>
-        <input type="submit" value="Make Your reservation"></input>
-      </form>
+      <Heading />
+      <ReservationForm availableTimes={availableTimes} updateTimes={dispatch} />
     </>
   );
-};
-
-export default BookingPage;
+}

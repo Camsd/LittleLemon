@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/Footer.css";
-import logoLemon from '../images/Logo.svg';
+import logoLemon from '../images/footer-logo.png';
 
 const Footer = () => {
   return (

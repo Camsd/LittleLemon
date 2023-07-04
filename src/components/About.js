@@ -1,29 +1,21 @@
-import React from "react";
-import "../stylesheets/About.css";
-import adrian from "../images/Mario and Adrian A.jpg";
-import adrian2 from "../images/Mario and Adrian b.jpg";
+import '../stylesheets/About.css';
 
-const About = () => {
+export default function About() {
   return (
-    <>
-      <div className="about-container">
-        <div className="text-container">
-          <h1>Little Lemon</h1>
-          <h3>Chicago</h3>
-          <p>
-          Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario.
-                Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago, 
-                and were inspired to bring the flavors of their hometown in Italy to the people of Chicago. The two brothers 
-                continue to oversee the Little Lemon restaurant, nearly thirty years later.
-          </p>
-        </div>
-        <div className="adrian-img">
-          <img src={adrian} alt="Adrian and Mario"  className="adrian1"/>
-          <img src={adrian2} alt="Adrian and Mario 2" className="adrian2" />
-        </div>
-      </div>
-    </>
-  );
-};
+      <article className="about-us">
+          <section className="hero-text">
+              <h1 className='title-about'>Little Lemon</h1>
+              <h2 className='subtitle-about'>Chicago</h2>
+              <p className="about-subtext">Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario. 
+              Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago, 
+              and were inspired to bring the flavors of their hometown in Italy to the people of Chicago. The two brothers 
+              continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>
+          </section>
 
-export default About;
+          <section className="double-image">
+              <img className="about-1" src={require('../images/Mario and Adrian b.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
+              <img className="about-2" src={require('../images/Mario and Adrian A.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
+          </section>
+  </article>
+  );
+}

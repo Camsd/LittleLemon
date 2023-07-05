@@ -1,0 +1,19 @@
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Estilos para el componente Layout */
+  .Layout {
+    flex: 1; /* Hace que el componente Layout ocupe todo el espacio restante */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Estilos para el componente Footer */
+  .Footer {
+    margin-top: auto; /* Empuja el Footer hacia abajo para que siempre esté al final */
+  }

@@ -13,9 +13,9 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="menu" element={< Main/>} />
-        <Route path="footer" element={< Footer/>} />
-        <Route path="testimonials" element={< Testimonials/>} />
+        <Route path="menu" element={<Main />} />
+        <Route path="footer" element={<Footer />} />
+        <Route path="testimonials" element={<Testimonials />} />
       </Route>
       <Route path="*" element={<h1>Error 404 Not Found</h1>} />
     </Routes>
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+

@@ -20,6 +20,7 @@
 
   .footer-list ul li:not(:first-child):hover {
     text-decoration: underline;
+    transition: 0.1s;
   }
 .footer-list img{
   max-height: 5rem;

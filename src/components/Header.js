@@ -5,8 +5,8 @@ import food from "../images/restauranfood.jpg";
 const Header = () => {
   return (
     <header>
-      <div class="hero-content">
-        <div class="hero-text">
+      <div className="hero-content">
+        <div className="hero-text">
           <h1>Little Lemon</h1>
           <h4>Chicago</h4>
           <p>

@@ -60,6 +60,7 @@ header {
     border-style: none;
     margin-bottom: 1.5%;
     cursor: pointer;
+    transition: background-color 0.3s ease
   }
 
   .btn-hero:hover{

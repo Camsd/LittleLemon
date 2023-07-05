@@ -24,9 +24,9 @@ nav ul li a {
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: #f4cf14bd;
+    background-color: #f4CE14;
     transform: scaleX(0);
-    transition: transform 0.1s ease;
+    transition: transform 0.3s ease;
   }
 
   nav ul li a:hover::after {
@@ -36,14 +36,6 @@ nav ul li a {
 nav a {
     text-decoration: none;
     font-weight: bold;
-  }
-
-  nav.nav-colored-links a {
-    color: black;
-  }
-
-  nav.nav-white-links a {
-    color: white;
   }
 
 nav ul li:last-child{

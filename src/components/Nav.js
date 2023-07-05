@@ -21,9 +21,6 @@ const Nav = () => {
 
   return (
     <nav
-      className={
-        nav ? "nav.nav-white-links a" : "nav-colored-links"
-      }
       style={{
         backgroundColor: nav ? "#495E57" : "#fff",
         color: nav ? "white" : "black",

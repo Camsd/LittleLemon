@@ -21,7 +21,7 @@ const Testimonials = () => {
             <AiTwotoneStar className="star" />
           </div>
           <img src={testimonial1} alt="testimonial 1" />
-          <p className="name">Mia</p>
+          <p className="name">Tomas Harris</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="cardT">
@@ -32,7 +32,7 @@ const Testimonials = () => {
             <AiTwotoneStar className="star" />
           </div>
           <img src={testimonial2} alt="testimonial 1" />
-          <p className="name">Khalifa</p>
+          <p className="name">James Clear</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="cardT">
@@ -43,7 +43,7 @@ const Testimonials = () => {
             <AiTwotoneStar className="star" />
           </div>
           <img src={testimonial3} alt="testimonial 1" />
-          <p className="name">Messi</p>
+          <p className="name">James Sunderland</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="cardT">
@@ -56,7 +56,7 @@ const Testimonials = () => {
             <AiTwotoneStar className="star" />
           </div>
           <img src={testimonial2} alt="testimonial 1" />
-          <p className="name">Ronaldo</p>
+          <p className="name">Hadry Hendrix</p>
           <p className="review">Lorem ipsum dolor sit amet.</p>
         </div>
       </div>

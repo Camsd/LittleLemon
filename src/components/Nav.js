@@ -36,7 +36,9 @@ const Nav = () => {
         width: "100%",
       }}
     >
-      <img src={nav ? darkLogo : logo} alt="Logo little lemon" />
+      <Link to="/home" className="logo-link">
+        <img src={nav ? darkLogo : logo} alt="Logo little lemon" />
+      </Link>
       <ul>
         <li>
           <Link to={"/home"}>Home</Link>

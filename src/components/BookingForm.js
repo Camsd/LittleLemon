@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import '../stylesheets/BookingForm.css';
 export default function ReservationForm(props) {
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");

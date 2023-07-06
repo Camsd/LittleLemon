@@ -1,13 +1,9 @@
-import HeroImage from "../images/restaurant.jpg";
+import '../stylesheets/Login.css';
+
 export default function Login() {
   return (
-    <header className="reserve-table">
-      <img
-        className="header-reserve"
-        src={HeroImage}
-        alt="Little Lemon Ingredients"
-      ></img>
-      <div className="reserve-header-text">
+    <header>
+      <div className='login-text'>
         <h1>Login</h1>
       </div>
     </header>

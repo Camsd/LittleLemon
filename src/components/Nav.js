@@ -53,7 +53,7 @@ const Nav = () => {
           <Link to={"/reservations"}>Reservations</Link>
         </li>
         <li>
-          <Link to={"/orderOnline"}>Order Online</Link>
+          <Link to={"/order"}>Order Online</Link>
         </li>
         <li>
           <Link to={"/login"}>Login</Link>

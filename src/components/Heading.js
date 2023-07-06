@@ -1,12 +1,7 @@
-import HeroImage from "../images/Mario and Adrian b.jpg";
+import '../stylesheets/Heading.css'
 export default function Heading() {
   return (
     <header className="reserve-table">
-      <img
-        className="header-reserve"
-        src={HeroImage}
-        alt="Little Lemon Ingredients"
-      ></img>
       <div className="reserve-header-text">
         <h1>Reserve a table</h1>
       </div>

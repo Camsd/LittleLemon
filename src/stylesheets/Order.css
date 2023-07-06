@@ -1,3 +1,38 @@
-.order-text{
-    margin-top: 30rem;
-}
+.order-online {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: auto;
+  }
+
+  .order-online footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+  }
+
+  .order-online h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .order-online p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  .order-online a {
+    display: inline-block;
+    background-color: #f7cd00;
+    color: black;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .order-online a:hover {
+    background-color: #ffdd35;
+  }

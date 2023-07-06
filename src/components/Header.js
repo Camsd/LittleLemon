@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../stylesheets/Header.css";
 import food from "../images/restauranfood.jpg";
 
@@ -16,7 +17,9 @@ const Header = () => {
             recipes served with a modern <br />
             twist.
           </p>
+          <Link to="/reservations">
           <button className="btn-hero">Reserve a table</button>
+          </Link>
         </div>
         <img src={food} alt="food" id="food" />
       </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import '../stylesheets/BookingForm.css';
+import "../stylesheets/BookingForm.css";
 export default function ReservationForm(props) {
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
@@ -66,6 +66,8 @@ export default function ReservationForm(props) {
           required
           minLength={4}
           maxLength={200}
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title="Please enter a valid email address"
           onChange={(e) => setEmail(e.target.value)}
         ></input>
       </div>
@@ -80,6 +82,8 @@ export default function ReservationForm(props) {
           required
           minLength={10}
           maxLength={25}
+          pattern="\(\d{3}\)-\d{3}-\d{4}"
+          title="Please enter a valid phone number in the format (xxx)-xxx-xxxx"
           onChange={(e) => setTel(e.target.value)}
         ></input>
       </div>

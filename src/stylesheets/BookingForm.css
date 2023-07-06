@@ -9,8 +9,7 @@ textarea {
 label,
 input,
 select,
-textarea,
-p {
+textarea {
 font-family: "Karla";
 }
 

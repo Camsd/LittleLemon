@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../stylesheets/Main.css";
 import salad from "../images/greek salad.jpg";
 import brucheta from "../images/bruchetta.svg";
@@ -11,7 +12,7 @@ const Main = () => {
     <div className="main-container">
       <div className="main-title">
         <h1>This week specials!</h1>
-        <button className="btn-main">Online Menu</button>
+        <Link class="btn-main" to="/reservations">Order Online</Link>
       </div>
       <div className="cards">
         <div className="card">

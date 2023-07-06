@@ -2,11 +2,10 @@
     display: flex;
     color: #EDEFFE;
     width: 100vw;
-    margin-top: 2%;
     margin-bottom: 0;
     background-color: #495E57;
     justify-content: space-evenly;
-    margin-top: auto;
+    margin-top: 1rem;
 }
 
 .footer-list ul li{
@@ -43,11 +42,10 @@
 
 .footer-list img{
   max-height: 5rem;
-  top: 50%;
   background-color: rgb(255, 255, 255);
   padding: 0.5rem;
-  margin-top: 1.5rem;
   margin-left: 2rem;
+  margin-top: 2%;
 }
 
 .social-media {

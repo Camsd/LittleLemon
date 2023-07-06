@@ -1,86 +1,67 @@
-.title-testimonials > h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.title-testimonials {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
 
-  .grid-testimonials {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-left: 16%;
-    margin-right: 20%;
-    padding: 0 20px;
-    margin-bottom: 2rem;
-  }
+.grid-testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-left: 15%;
+  margin-right: 20%;
+  margin-bottom: 2rem;
+}
 
-  .cardT {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: #EDEFEE;
-    height: 150px;
-    width: 200px;
-    padding: 5px;
-    border-radius: 10px;
-  }
+.cardT {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
 
-  .cardT p {
-    margin: 0;
-  }
+.rating {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: .5rem;
+}
 
-  .cardT .rating{
-    font-family: 'Markazi Text', serif;
-    font-weight: 200;
-    font-size: 25px;
-    color: black;
-  }
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
 
-  .cardT img {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-  }
+.star {
+  color: gold;
+}
 
-  .cardT .name {
-    position: absolute;
-    top: 70px;
-    left: 80px;
-    font-family: -apple-system;
-    color: black;
-  }
+.grid-testimonials img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
 
-  .cardT .review {
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color: black;
-  }
+#testimonial-3{
+  width: 100%;
+  height: 30%;
+}
 
-  .stars{
-    display: flex;
-    position: absolute;
-    left: 80px;
-    top: 20px;
-    overflow: auto;
-  }
+.name {
+  font-weight: bold;
+  color: #333;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
 
-  .star{
-    color: #F4CE14;
-  }
+.review {
+  color: #555;
+  margin-top: .3rem;
+}
 
-  @media screen and (max-width: 400px) {
-    .grid-testimonials {
-      grid-template-columns: 1fr 1fr;
-      justify-items: center;
-    }
-    .grid-testimonials p{
-        position: absolute;
-        bottom: 90px;
-        left: 20px;
-        color: red;
-    }
-  }

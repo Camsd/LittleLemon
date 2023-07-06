@@ -22,7 +22,8 @@ const Testimonials = () => {
           </div>
           <img src={testimonial1} alt="testimonial 1" />
           <p className="name">Tomas Harris</p>
-          <p className="review">Lorem ipsum dolor sit amet.</p>
+          <p className="review">"This restaurant served as a perfect dinner for me after a 
+                long night of studying. I would definitely order from here again!"</p>
         </div>
         <div className="cardT">
           <p className="rating">Rating</p>
@@ -33,7 +34,8 @@ const Testimonials = () => {
           </div>
           <img src={testimonial2} alt="testimonial 1" />
           <p className="name">James Clear</p>
-          <p className="review">Lorem ipsum dolor sit amet.</p>
+          <p className="review">"Great food, welcoming staff, cozy atmosphere. A great place to 
+                treat your kids to."</p>
         </div>
         <div className="cardT">
           <p className="rating">Rating</p>
@@ -42,9 +44,10 @@ const Testimonials = () => {
             <AiTwotoneStar className="star" />
             <AiTwotoneStar className="star" />
           </div>
-          <img src={testimonial3} alt="testimonial 1" />
+          <img src={testimonial3} alt="testimonial 1" id="testimonial-3"/>
           <p className="name">James Sunderland</p>
-          <p className="review">Lorem ipsum dolor sit amet.</p>
+          <p className="review">"I've had some great Mediterranean food before, but none of them beats
+             Little Lemon in flavor and texture.".</p>
         </div>
         <div className="cardT">
           <p className="rating">Rating</p>
@@ -56,8 +59,8 @@ const Testimonials = () => {
             <AiTwotoneStar className="star" />
           </div>
           <img src={testimonial2} alt="testimonial 1" />
-          <p className="name">Hadry Hendrix</p>
-          <p className="review">Lorem ipsum dolor sit amet.</p>
+          <p className="name">Cheryl Mason</p>
+          <p className="review">"This is the best Mediterranean food that I've ever had!"</p>
         </div>
       </div>
     </>

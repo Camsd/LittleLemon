@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/LittleLemon/static/css/main.140073a0.css",
+    "main.js": "/LittleLemon/static/js/main.62ddaba5.js",
+    "static/media/bruchetta.svg": "/LittleLemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/LittleLemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/LittleLemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/Mario and Adrian b.jpg": "/LittleLemon/static/media/Mario and Adrian b.8243976e65d16a99c576.jpg",
+    "static/media/Mario and Adrian A.jpg": "/LittleLemon/static/media/Mario and Adrian A.7aace8ace5c1c6454c21.jpg",
+    "static/media/Logo.svg": "/LittleLemon/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/footer-logo.png": "/LittleLemon/static/media/footer-logo.4470f9c9e815da98dbb3.png",
+    "index.html": "/LittleLemon/index.html",
+    "main.140073a0.css.map": "/LittleLemon/static/css/main.140073a0.css.map",
+    "main.62ddaba5.js.map": "/LittleLemon/static/js/main.62ddaba5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.140073a0.css",
+    "static/js/main.62ddaba5.js"
+  ]
+}
